@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - itshow@localhost" uuid="4529763e-f27a-45da-b7e7-ce8a4727a888">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>itshow.*</schema-pattern>
+      <default-schemas>itshow.*</default-schemas>
+    </data-source>
+  </component>
+</project>

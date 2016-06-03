@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - itshow@localhost" uuid="4529763e-f27a-45da-b7e7-ce8a4727a888">
+    <database-info product="MySQL" version="5.5.47" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="itshow"/>
+      <table id="2" parent="1" name="user"/>
+      <column id="3" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="4" parent="2" name="create_time">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="5" parent="2" name="email">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="6" parent="2" name="height">
+        <data-type>double</data-type>
+      </column>
+      <column id="7" parent="2" name="nick_name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="8" parent="2" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="9" parent="2" name="weight">
+        <data-type>double</data-type>
+      </column>
+      <key id="10" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
